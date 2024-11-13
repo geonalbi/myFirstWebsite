@@ -1,0 +1,199 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    background: rgb(17,96,142);
+    background: linear-gradient(90deg, rgba(17,96,142,1) 0%, rgba(46,163,231,1) 58%, rgba(0,212,255,0.9262298669467787) 87%);
+    color: white;
+    
+}
+
+.topButton {
+    border: solid transparent;
+    border-radius: 7%;
+    background: rgb(63,128,251);
+    background: radial-gradient(circle, rgb(63, 207, 251) 0%, rgb(54, 173, 217) 100%);
+    font-family: monospace;
+    color: rgb(54, 52, 50);
+    height: 30px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.banner {
+    height: 250px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.footer {
+    background: rgb(17,96,142);
+    background: linear-gradient(90deg, rgba(17,96,142,1) 0%, rgba(46,163,231,1) 58%, rgba(0,212,255,0.9262298669467787) 87%);
+    justify-self: flex-end;
+}
+
+.intro {
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 60px;
+}
+
+.main {
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftHeader {
+    width: 350px;
+}
+
+p {
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(54, 52, 50);
+}
+
+.main {
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    margin: 20px 20px;
+    gap: 40px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: solid rgba(14, 173, 226, 0.774);
+    border-radius: 5%;
+    border-width: 5px;
+    
+}
+
+.categoriesTitle {
+    text-align: center;
+    font-weight: 800;
+    color: rgba(61, 55, 55, 0.759);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+
+.quote {
+    background: rgb(78,83,85);
+    background: linear-gradient(90deg, rgba(78,83,85,1) 0%, rgba(126,136,142,1) 58%, rgba(204,216,218,0.9262298669467787) 87%);
+    color: rgb(33, 32, 32);
+    font-style: italic;
+    text-align: center;
+    text-justify: center;
+    font-size: 30px;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    text-align: end;
+    margin-right: 250px;
+    color: rgb(91, 57, 57);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary {
+    font-weight: 500;
+}
+
+.newsletter {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardButton {
+ border: solid white;
+ color: white;
+ border-radius: 13%;
+ font-size: 20px;
+ background-color: rgb(0, 136, 255);
+ width: 100px;
+}
+
+.card {
+    background-color: rgb(0, 136, 255);
+    height: 100px;
+    width: 900px;
+    display: flex;
+    border: solid transparent;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 220px;
+    
+}
+
+.newsMessage {
+    color: rgba(255, 255, 255, 0.759);
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.Call {
+    color: white;
+}
